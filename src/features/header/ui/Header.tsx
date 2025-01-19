@@ -13,7 +13,7 @@ const Header: FC = () => {
             </Link>
           </li>
           <li className="text-center">
-            <Link href={"/"} className="hover:underline">
+            <Link href={"/create-review"} className="hover:underline">
               Create review
             </Link>
           </li>
