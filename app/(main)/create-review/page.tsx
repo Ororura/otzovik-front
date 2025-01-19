@@ -1,7 +1,12 @@
+import { CreateReview } from "features/createReview/ui";
 import { FC } from "react";
 
-const CreateReview: FC = () => {
-  return <div className="max-w-screen-xl mx-auto">Review</div>;
+const Page: FC = () => {
+  return (
+    <div className="max-w-screen-xl mx-auto">
+      <CreateReview />
+    </div>
+  );
 };
 
-export default CreateReview;
+export default Page;
