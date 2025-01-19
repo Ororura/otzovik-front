@@ -1,5 +1,5 @@
 import { axiosInstance } from "shared/api";
-import { Review } from "entities/reviewEntity/model/types";
+import { Review } from "entities/reviewEntity/model";
 
 const reviewApi = {
   getReviews: async () => {

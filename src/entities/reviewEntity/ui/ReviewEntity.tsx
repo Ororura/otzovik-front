@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Review } from "entities/reviewEntity/model/types";
+import { Review } from "entities/reviewEntity/model";
 
 const ReviewEntity: FC<{ review: Review }> = ({ review }) => {
   return (
